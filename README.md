@@ -6,7 +6,7 @@ This is an Employee Management System built with Node.js, Express, Sequelize, an
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/employee-management.git
+   git clone https://github.com/HemantRana01/Employee-Management.git
    cd employee-management
    ```
 
