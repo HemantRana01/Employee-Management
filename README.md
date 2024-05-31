@@ -38,4 +38,4 @@ This is an Employee Management System built with Node.js, Express, Sequelize, an
 7. **Restart the server:**
    ```bash
    npm start
-   `
+   ```
