@@ -1,0 +1,1 @@
+This folder contains images of employees, which are uploaded and stored as part of their profile information.
