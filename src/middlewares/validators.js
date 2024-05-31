@@ -13,3 +13,14 @@ exports.validateEmployee = [
     next();
   }
 ];
+
+exports.validateDepartment = [
+  body('name').notEmpty().withMessage('Name is required'),
+  (req, res, next) => {
+    const errors = validationResult(req);
+    if (!errors.isEmpty()) {
+      return res.status(StatusCodes.BAD_REQUEST).json({ errors: errors.array() });
+    }
+    next();
+  }
+];
